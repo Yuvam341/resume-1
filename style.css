@@ -1,0 +1,470 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+/* Body Header */
+
+#body-header {
+    height: 65vh;
+    opacity: 0.8;
+    background-image: url(https://ninjasfiles.s3.amazonaws.com/asset_0000000000000020_1549743985_macbook_mouse.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 1.2rem;
+}
+
+/* Horizontal Lists */
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-menu li a {
+    transition: color 0.5s, border-bottom 4s;
+}
+
+.nav-menu li a:hover {
+    color: lightgrey;
+    border-bottom: 1px solid black;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Name and Social Icons*/
+
+#name-social-container {
+    margin-top: 20vh;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    transition :all 0.5s;
+}
+
+
+.social-icons li a i {
+    /*color: red;*/
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+
+.social-icons li a i:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+/*About Section*/
+
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+
+
+#about-para {
+    padding: 10px;
+    width: 70%;
+    text-align: justify;
+    color: grey;
+    line-height: 28px;
+    font-size: 1.1rem;
+    margin: auto;
+    margin-bottom:50px;
+}
+
+.text-highlight {
+    color: #2857a4;
+    font-weight: 600;
+}
+/* skills section */
+section:nth-child(2n+1){
+    background-color:white;
+}
+section:nth-child(2n)
+{
+    background-color:lightgrey;
+    
+}
+.skillsec{
+    color:blue;
+    text-align:center;
+}
+.containerskills{
+   
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+   
+}
+.skillscontent{
+    display:grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-column-gap: 120px;
+   grid-row-gap: 30px;
+    
+
+}
+.skils{
+    height:30px;
+    width:150px;
+    border:1px solid black;
+  margin-top:20px;
+    border-radius:25px;
+}
+.innerskil{
+    height:inherit;
+    text-align:left;
+    padding-left:10px;
+    font-size:small;
+    border-radius:inherit;
+}
+
+
+
+/*PORTFOLIO SECTION*/
+.port{
+    display:flex;
+    flex-direction:column;
+    margin-top:120px;
+   text-align:center;
+    justify-content:center;
+    
+    
+}
+.portimages{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    grid-template-columns: repeat(3,1fr);
+}
+.portimages img{
+    width:200px;
+    height:200px;
+    padding-right:80px;
+    
+    
+}
+.portimages img:hover{
+    width:200px;
+    height:200px;
+    background-color: lightgrey;
+    
+}
+
+#contact{
+   display:inline-block;
+    margin-top:40px;
+    color:white;
+    text-align:center;
+    height:auto;
+    width:100%;
+    background-image:linear-gradient(to right,    rgb(46,76,148),rgb(62,49,103));
+}
+
+.containerdiv{
+    display:flex;
+    flex-direction:column;
+    margin-left:29px;
+    text-decoration:underline white;
+    width:50%;
+    float:left;
+}
+
+
+input{
+    border:none;
+    outline:none;
+    background:none;
+    padding-bottom:10px;
+    border-bottom:1px solid white;
+}
+.but{
+  background:none;
+    color:white;
+    height:30px;
+    width:100px;
+    font-size:10px;
+    border:1px solid white;
+    text-decoration:none;
+    margin-top:30px;
+    margin-left:120px;
+
+}
+.mleftport{
+    display: flex;
+    justify-content: center;
+    color:#2857a4;
+    padding:1%;
+    margin-top: 3%;;
+}
+.formdiv{
+    padding-left:0px;
+}
+.getin{
+    display:inline-block;
+    width:30%;
+    text-align:left;
+    
+    font-size:15px;
+}
+ul li{
+    display:inline;
+		text-align:center;
+    justify-content:center;
+    color:white;
+    padding-right:10px;
+}
+a{
+    color:white;
+}
+/* work experience */
+.headexp{
+    margin-left:2%;
+    font-size: large;
+    color:#2857a4;
+   
+}
+.mbbottom{
+    margin-bottom:7%;
+}
+.mleft{
+    margin-left:38%;
+    color:#2857a4;
+}
+.timeline{
+    position: relative;
+    width:75%;
+   
+    margin:auto;
+
+}
+.timeline-box{
+    position: relative;
+    margin:5px;
+    width:40%;
+    left:5%;
+    min-height:150px;
+    background-color: black;
+   
+
+}
+.timeline-box:nth-child(2n)
+{
+    left:53%;
+}
+.timeline-box:nth-child(2n+1)::after{
+    content:'';
+    position: absolute;
+    top:40%;
+    border-radius:50%;
+    width:0.5rem;
+    height:0.5rem;
+    background-color: grey;
+    right:-12.9%;
+    z-index: 1;
+}
+.timeline-box:nth-child(2n)::after{
+    content:'';
+    position: absolute;
+    top:40%;
+    border-radius:50%;
+    width:0.5rem;
+    height:0.5rem;
+    background-color: grey;
+    left:-8.8%;
+    z-index: 1;
+}
+.timeline-divide{
+    position :absolute;
+    height:75%;
+    width:0;
+    border:3px dashed #0096fa6b;
+    top:10%;
+    left:50%;
+}
+.timelinetravel{
+    position: sticky;
+    top:18%;
+    transform: rotate(90deg);
+    z-index: 2;
+}
+.expp{
+    text-align:right;
+    color:#0096fa6b;
+    font-size:1rem;
+    margin-right:2%;
+    
+}
+.exppo{
+    text-align:right;
+    color:orangered;
+    font-size:1rem;
+    margin-right:2%;
+}
+.exppalign{
+    text-align: right;
+    font-size:1rem;
+    margin-right:2%;
+    color:lightgray;
+}
+.exppp{
+    font-size:1rem;
+    text-align: left;
+    color:lightgray;
+    word-spacing: 2%;
+}
+/* responsive nav bar */
+.resnav{
+    display:none;
+    
+}
+.resnav a{
+    display: none;
+}
+
+@media screen and (max-width:550px){
+    .horizontal-list{
+        display: none;
+    }
+    .resnav{
+        display: block;
+        float: right;
+        color:white;
+        margin-right:2%;
+    }
+    .resnav:hover  a{
+       display: block;
+       background-color: #B3BAA1;
+       color:white;
+       font-size: small;
+       text-decoration: none;
+
+    }
+    .resnav:hover a:hover{
+       text-decoration:  underline;
+
+   }
+    
+}
+/* responsive work experience */
+@media all and (max-width:762px){
+    .skillscontent{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media screen and (max-width:572px)
+{
+    .timeline-divide{
+        left:2%;
+    }
+    .timeline-box:nth-child(2n+1)::after{
+        content:'';
+        position: absolute;
+        top:40%;
+        border-radius:50%;
+        width:0.5rem;
+        height:0.5rem;
+        background-color: grey;
+        left:-9.5%;
+        z-index: 1;
+    }
+    .timeline-box:nth-child(2n)::after{
+        content:'';
+        position: absolute;
+        top:40%;
+        border-radius:50%;
+        width:0.5rem;
+        height:0.5rem;
+        background-color: grey;
+        left:-9.5%;
+        z-index: 1;
+    }
+   
+    .timeline-box:nth-child(n){
+        position: relative;
+       left:5%;
+        width:90%;
+        margin-left: 5%;
+        min-height:150px;
+        background-color: black;
+       
+    
+    }
+    .containerdiv{
+      
+        height:auto;
+      width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .containerdiv input{
+        width:100%;
+    }
+    .containerdiv button{
+        margin-left:-19%;
+    }
+    .getin{
+        width:100%;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    .skillscontent{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left:30%;
+    }
+}
+    
